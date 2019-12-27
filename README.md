@@ -1,16 +1,34 @@
-# contatos
+# CONTATOS
 
-A new Flutter project.
+Contatos é uma aplicação feita em FLUTTER para ser usada em conjunto a CONNECTIONNET: git@github.com:darcinetodev/CONNECTIONNET.git 
 
-## Getting Started
+## Conhecimentos básicos
+## Conexão
 
-This project is a starting point for a Flutter application.
+A aplicação se conecta a API CONNECTIONNET através do IP local e a porta '57578'.
+GET: /v1/peoples
+PUT: /v1/peoples/:id junto com o corpo em JSON
+POST: /v1/peoples/:id junto com o corpo em JSON
 
-A few resources to get you started if this is your first Flutter project:
+## Criando contato
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Caminho: Barra superior -> Botão (+)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Nome: O mesmo deverá ter mais de 3 digitos;
+E-mail: O mesmo deverá ser um e-mail válido;
+Telefone: O mesmo deverá ter mais de 8 digitos.
+
+## Editando um contato
+
+Caminho: Bloco do contato -> Botão 'Editar'
+A aplicação leva os dados para a página de edição;
+
+Nome: O mesmo deverá ter mais de 3 digitos;
+E-mail: O mesmo deverá ser um e-mail válido;
+Telefone: O mesmo deverá ter mais de 8 digitos.
+
+## Excluir um contato
+
+Caminho: Bloco do contato -> Arrastar da esquerda para a direita
+
+## Aplicação criada para fins acadêmicos e não lucrativos
