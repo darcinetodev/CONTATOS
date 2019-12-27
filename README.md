@@ -1,31 +1,35 @@
 # CONTATOS
 
-Contatos é uma aplicação feita em FLUTTER para ser usada em conjunto a CONNECTIONNET: git@github.com:darcinetodev/CONNECTIONNET.git 
+Contatos é uma aplicação feita em FLUTTER para ser usada em conjunto a CONNECTIONNET: darcinetodev/CONNECTIONNET.git
 
 ## Conhecimentos básicos
 ## Conexão
 
 A aplicação se conecta a API CONNECTIONNET através do IP local e a porta '57578'.
-GET: /v1/peoples
-PUT: /v1/peoples/:id junto com o corpo em JSON
-POST: /v1/peoples/:id junto com o corpo em JSON
+<ul>
+  <li>GET: /v1/peoples</li>
+  <li>PUT: /v1/peoples/:id junto com o corpo em JSON</li>
+  <li>POST: /v1/peoples/:id junto com o corpo em JSON</li>
+</ul>
 
 ## Criando contato
 
 Caminho: Barra superior -> Botão (+)
-
-Nome: O mesmo deverá ter mais de 3 digitos;
-E-mail: O mesmo deverá ser um e-mail válido;
-Telefone: O mesmo deverá ter mais de 8 digitos.
+<ul>
+  <li>Nome: O mesmo deverá ter mais de 3 digitos;</li>
+  <li>E-mail: O mesmo deverá ser um e-mail válido;</li>
+  <li>Telefone: O mesmo deverá ter mais de 8 digitos.</li>
+</ul>
 
 ## Editando um contato
 
 Caminho: Bloco do contato -> Botão 'Editar'
-A aplicação leva os dados para a página de edição;
-
-Nome: O mesmo deverá ter mais de 3 digitos;
-E-mail: O mesmo deverá ser um e-mail válido;
-Telefone: O mesmo deverá ter mais de 8 digitos.
+<p>A aplicação leva os dados para a página de edição;</p>
+<ul>
+  <li>Nome: O mesmo deverá ter mais de 3 digitos;</li>
+  <li>E-mail: O mesmo deverá ser um e-mail válido;</li>
+  <li>Telefone: O mesmo deverá ter mais de 8 digitos.</li>
+</ul>
 
 ## Excluir um contato
 
